@@ -1,0 +1,81 @@
+body {background-color: #e5d9f3;
+	color: #473223;
+	margin: 0;
+	font-family:New Century Schoolbook, TeX Gyre Schola, serif;}
+	* { box-sizing: border-box;}
+header {background-color: #ccb7e4;
+    color: #2b13b4;
+    height: 135px;
+    padding-left: 110px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 1.3em;
+    text-align: center;}
+header a:link {text-decoration: none;
+    color: #231814;}
+header a:visited {text-decoration: none;
+    color: #361966;}
+header a:hover { text-decoration: none; 
+    color: #811b81;}
+h1 {font-size: 3em;}
+h2 {font-size: 2em;
+    color: #651186;
+    text-align: center;}
+h3 {color: #651186;
+    text-align: center;}
+nav a {text-decoration: none;}
+nav a:link {color: #f5c9e6;}
+nav a:visited { color:#c08b8b;}
+nav a:hover { color: #d39cd4}
+nav {font-size: 1.6em;
+    background-color: #987f9b;
+    text-align: center;}
+footer {background-color: #b4789d;
+    color: #f0d6f0;
+    font-size: .70em;
+    font-style: italic;
+    text-align: center;}
+main {padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 2em;
+    padding-top: 0;
+    background-color: #f9e0fc;
+    display:block;
+    margin-left: 5em;
+    margin-right: 5em;}
+#picturecatup { height: 500px;
+    background-image: url(cat11.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;}
+#picturecatdown { height: 500px;
+    background-image: url(cat6.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;}
+p { font-size: 1em;}
+li {font-size: 1em;}
+#picmenuup { height: 500px;
+    background-image: url(cat1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;}
+.tablecolor{ background-color: #cca2be;}
+table {margin: auto;
+    width: 100%;
+    border-spacing: 0;}
+#picadopt{ height: 500px;
+    background-image: url(cat13.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;}
+form {display: flex;
+	flex-direction: column;
+	padding-left: 1em; width: 50%;}
+#gallery { display: grid; 
+	grid-template-columns: repeat(auto-fill, 400px);
+	grid-template-rows: auto;
+	grid-gap: 2em; gap: 2em;}
+#piccontact { height: 500px;
+    background-image: url(cat8.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; }
+.contactcenter {text-align: center;
+    font-size: 1.5em;}
